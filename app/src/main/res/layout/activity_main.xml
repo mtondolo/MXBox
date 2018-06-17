@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ActivityMainScrollViewStyle"
+    tools:context="com.example.android.mxbox.MainActivity">
+
+    <LinearLayout style="@style/ActivityMainLinearLayout01">
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/playlist_linear_layout"
+            style="@style/ActivityMainLinearLayout02">
+
+            <ImageView
+                style="@style/ActivityMainImageViewStyle"
+                android:src="@drawable/ic_shortcut_playlist" />
+
+            <TextView
+                style="@style/ActivityMainTextViewStyle"
+                android:text="@string/splash_screen_playlist" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/albums_linear_layout"
+            style="@style/ActivityMainLinearLayout02">
+
+            <ImageView
+                style="@style/ActivityMainImageViewStyle"
+                android:src="@drawable/ic_shortcut_albums" />
+
+            <TextView
+                style="@style/ActivityMainTextViewStyle"
+                android:text="@string/splash_screen_albums" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/artists_linear_layout"
+            style="@style/ActivityMainLinearLayout02">
+
+            <ImageView
+                style="@style/ActivityMainImageViewStyle"
+                android:src="@drawable/ic_shortcut_artists" />
+
+            <TextView
+                style="@style/ActivityMainTextViewStyle"
+                android:text="@string/splash_screen_artist" />
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/songs_linear_layout"
+            style="@style/ActivityMainLinearLayout02">
+
+            <ImageView
+                style="@style/ActivityMainImageViewStyle"
+                android:src="@drawable/ic_shortcut_songs" />
+
+            <TextView
+                style="@style/ActivityMainTextViewStyle"
+                android:text="@string/splash_screen_songs" />
+        </LinearLayout>
+
+        <View
+            style="@style/BorderLineStyle"
+            android:background="@android:color/darker_gray" />
+
+
+    </LinearLayout>
+</ScrollView>

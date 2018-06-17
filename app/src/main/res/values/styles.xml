@@ -1,0 +1,210 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- Style for the Activity Main Scroll View -->
+    <style name="ActivityMainScrollViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- Style for the Divider View -->
+    <style name="BorderLineStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">64dp</item>
+    </style>
+    <!-- Style for the Acitivity Main-Linear Layout -->
+    <style name="ActivityMainLinearLayout01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    <!-- Style for the Acitivity Main Sub-Linear Layout -->
+    <style name="ActivityMainLinearLayout02">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    <!-- Style for the Acitivity Main ImageView -->
+    <style name="ActivityMainImageViewStyle">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <!-- Style for Acitivity Main TextView -->
+    <style name="ActivityMainTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name=" android:textSize">17sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Style for Acitivity Now Playing - Relative Layout -->
+    <style name="ActivityNowPlayingRelativeLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- Style for Acitivity Now Playing - LinearLayout Layout01 -->
+    <style name="ActivityNowPlayingLinearLayout01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">360dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- Style for Acitivity Now Playing - LinearLayout Layout02 -->
+    <style name="ActivityNowPlayingLinearLayout02">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- Style for Acitivity Now Playing - TextView01 -->
+    <style name="ActivityNowPlayingTextViewStyle01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">48dp</item>
+        <item name=" android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- Style for Acitivity Now Playing - TextView02 -->
+    <style name="ActivityNowPlayingTextViewStyle03">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+    <!-- Style for Acitivity Now Playing - Seekbar -->
+    <style name="ActivityNowPlayingSeekbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:progress">40</item>
+    </style>
+    <!-- Style for the Acitivity Now ImageView01 -->
+    <style name="ActivityNowPlayingImageViewStyle01">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">fitEnd</item>
+    </style>
+    <!-- Style for the Acitivity Now ImageView02 -->
+    <style name="ActivityNowPlayingImageViewStyle02">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <!-- Style for the Acitivity Now ImageView03 -->
+    <style name="ActivityNowPlayingImageViewStyle03">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">fitEnd</item>
+    </style>
+    <!-- Style for the Grid item LinearLayout -->
+    <style name="GridItemLinearLayoutStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- Style for the Grid item TexrView01 -->
+    <style name="GridItemTextViewStyle01">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!-- Style for the Grid item TexrView02 -->
+    <style name="GridItemTextViewStyle02">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Style for the Grid view  -->
+    <style name="GridViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:columnWidth">90dp</item>
+        <item name="android:numColumns">2</item>
+        <item name="android:verticalSpacing">10dp</item>
+        <item name="android:horizontalSpacing">10dp</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- Style for the List Items Linear Layout  -->
+    <style name="ListItemLinearLayoutStyle01">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <!-- Style for the List Items Linear Layout02  -->
+    <style name="ListItemLinearLayoutStyle02">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- Style for the List Items Text View02  -->
+    <style name="ListItemTextView02">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Style for the List Items Text View03  -->
+    <style name="ListItemTextView03">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Style for the List Items Text View04  -->
+    <style name="ListItemTextView04">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Style for the ListView  -->
+    <style name="ListViewStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+</resources>

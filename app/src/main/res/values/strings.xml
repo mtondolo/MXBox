@@ -1,0 +1,88 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of the application -->
+    <string name="app_name">MxMusic Player</string>
+    <string name="title_activity_playlist">Playlist</string>
+    <!-- Header for Playlist subtitle on splash screen. [CHAR LIMIT=15]-->
+    <string name="splash_screen_playlist">Playlist</string>
+    <!-- Header for Albums subtitle on splash screen. [CHAR LIMIT=15]-->
+    <string name="splash_screen_albums">Albums</string>
+    <!-- Header for Artits subtitle on splash screen. [CHAR LIMIT=15]-->
+    <string name="splash_screen_artist">Artists</string>
+    <!-- Header for Song Subtitle on splash screen. [CHAR LIMIT=15]-->
+    <string name="splash_screen_songs">Songs</string>
+    <!-- Toast for Splash screen items(Artist and Songs).[CHAR LIMIT=45]-->
+    <string name="splash_screen_toast">Sorry, this activity is not yet active!</string>
+    <!--Title for the song.-->
+    <string name="song_title">Song title <xliff:g example="Amy"></xliff:g></string>
+    <!-- Name of the artist.-->
+    <string name="artist_name">Artist name<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration of song.-->
+    <string name="song_duration">Song duration<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of the album.--><string name="album_title">Song title<xliff:g example="Amy"></xliff:g></string>
+    <!-- Details of the song playing.-->
+    <string name="song_playing">Song playing<xliff:g example="Amy"></xliff:g></string>
+    <!-- Minutes played of the song currently playing.-->
+    <string name="song_play_start">2.01<xliff:g example="Amy"></xliff:g></string>
+    <!--Minutes remaining of the song currently playing.-->
+    <string name="song_play_end">5.15<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song one title on playlist.-->
+    <string name="song_one_title">God \'s Plan<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song one on playlist.-->
+    <string name="song_one_artist">Drake<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song one on playlist.-->
+    <string name="song_one_duration">3:12<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song two title on playlist.-->
+    <string name="song_two_title">Perfect<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song two on playlist. -->
+    <string name="song_two_artist">Ed Sheeran<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song two on playlist-->
+    <string name="song_two_duration">4:35<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song three title on playlist.-->
+    <string name="song_three_title">Havana<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song three on playlist.-->
+    <string name="song_three_artist">Camila<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song three on playlist-->
+    <string name="song_three_duration">3:54<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song four title on playlist.-->
+    <string name="song_four_title">Rockstar<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song four on playlist.-->
+    <string name="song_four_artist">Post Malone Featuring 21 Savage<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song four on playlist.-->
+    <string name="song_four_duration">3:51<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song five on playlist.-->
+    <string name="song_five_title">Finesse<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song five on playlist.-->
+    <string name="song_five_artist">Bruno Mars and Cardi B<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song five on playlist.-->
+    <string name="song_five_duration">5:12<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song six on playlist.-->
+    <string name="song_six_title">Bad At Love<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song six on playlist.-->
+    <string name="song_six_artist">Halsey<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song six on playlist.-->
+    <string name="song_six_duration">4:35<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song seven on playlist.-->
+    <string name="song_seven_title">Diplomatic Immunity<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song seven on playlist.-->
+    <string name="song_seven_artist">Drake<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song seven on playlist.-->
+    <string name="song_seven_duration">2:59<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song eight on playlist.-->
+    <string name="song_eight_title">New Rules<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song eight on playlist.-->
+    <string name="song_eight_artist">Dua Lipa<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song eight on playlist.-->
+    <string name="song_eight_duration">2:57<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song nine on playlist.-->
+    <string name="song_nine_title">Thunder<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song nine on playlist.-->
+    <string name="song_nine_artist">Imagine Dragons<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song nine on playlist.-->
+    <string name="song_nine_duration">4:13<xliff:g example="Amy"></xliff:g></string>
+    <!--Title of song ten on playlist.-->
+    <string name="song_ten_title">No Limit<xliff:g example="Amy"></xliff:g></string>
+    <!--Artist for song ten on playlist.-->
+    <string name="song_ten_artist">G-Eazy Featuring A$AP Rocky and Cardi B<xliff:g example="Amy"></xliff:g></string>
+    <!--Duration for song ten on playlist.-->
+    <string name="song_ten_duration">2:57<xliff:g example="Amy"></xliff:g></string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/now_playing_linear_layout"
+    style="@style/ListItemLinearLayoutStyle01">
+
+
+    <LinearLayout style="@style/ListItemLinearLayoutStyle02">
+
+        <TextView
+            android:id="@+id/song_title_text_view"
+            style="@style/ListItemTextView02"
+            android:text="@string/song_title" />
+
+        <TextView
+            android:id="@+id/artist_name_text_view"
+            style="@style/ListItemTextView03"
+            android:text="@string/artist_name" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/song_duration_text_view"
+        style="@style/ListItemTextView04"
+        android:text="@string/song_duration" />
+
+</LinearLayout>
